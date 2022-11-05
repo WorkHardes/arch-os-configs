@@ -12,3 +12,9 @@ cp ./dotfiles/lf/* lf_config_folder_path
 cat ./dotfiles/kitty/kitty.conf >> kitty_config_file_path
 cp ./dotfiles/k9s/skin.yml k9s_config_folder_path
 cat ./dotfiles/zshrc >> zsh_config_file_path
+# tmux
+cp -r ./dotfiles/tmux/ ~/
+cd
+mv ./tmux ./.tmux
+ln -s -f .tmux/.tmux.conf
+cp .tmux/.tmux.conf.local .
