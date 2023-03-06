@@ -5,7 +5,7 @@ This repo contains several scripts of my arch linux configuration:
 Configure it:
 
 ```bash
-git clone https://github.com/WorkHardes/arch-os-configs
+git clone --recurse-submodules https://github.com/WorkHardes/arch-os-configs
 cd ./arch-os-configs
 
 sudo ./pacman-install.sh
