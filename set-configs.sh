@@ -25,7 +25,7 @@ mkdir -p ~/.config/k9s
 cp ./dotfiles/k9s/skin.yml $k9s_config_folder_path
 
 # zsh
-cat ./dotfiles/.zshrc >> $zsh_config_file_path
+cat ./dotfiles/zsh/.zshrc >> $zsh_config_file_path
 
 # nvim
 mkdir -p ~/.config/nvim
@@ -40,3 +40,7 @@ mv ./tmux ./.tmux
 ln -s -f .tmux/.tmux.conf
 cp .tmux/.tmux.conf.local .
 
+git config --global alias.co checkout
+git config --global alias.br branch
+git config --global alias.ci commit
+git config --global alias.st status
