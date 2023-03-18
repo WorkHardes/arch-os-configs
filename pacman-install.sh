@@ -17,6 +17,7 @@ k9s \
 git \
 docker \
 docker-compose \
+ttf-nerd-fonts-symbols-1000-em \
 base-devel"
 
 ##################################
