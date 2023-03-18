@@ -12,10 +12,11 @@ qbittorrent \
 okular \
 vlc \
 mpv \
-python-poetry \
-zsh
-k9s
-git
+zsh \
+k9s \
+git \
+docker \
+docker-compose \
 base-devel"
 
 ##################################

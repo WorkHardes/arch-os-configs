@@ -2,7 +2,7 @@
 
 aur_packages="
 visual-studio-code-bin \
-google-chrome \
+brave-bin \
 sublime-text-4 \
 safeeyes \
 lf
@@ -15,5 +15,4 @@ cd ..
 rm -rf ./yay-git
 
 # update and install AUR packages
-yay -Suy
-yay -S $aur_packages
+yay -Suy --noconfirm  $aur_packages
