@@ -5,6 +5,9 @@ This repo contains several scripts of my arch linux configuration:
 Configure it:
 
 ```bash
+cd ~
+mkdir Repositories
+cd ./Repositories
 git clone --recurse-submodules https://github.com/WorkHardes/arch-os-configs
 cd ./arch-os-configs
 
