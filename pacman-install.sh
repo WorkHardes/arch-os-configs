@@ -5,9 +5,60 @@ if [[ $EUID -ne 0 ]]; then
     exit 1
 fi
 
-sway_pkgs="grim slurp swayidle waybar"
-base_pkgs="discord docker fish imv kitty mpv neovim qbittorrent okular tmux telegram-desktop ttf-hack ttf-firacode-nerd vlc"
-lf_preview_pkgs="ark bat jq unrarar unzip viu xmlstarlet"
+sway_pkgs="grim \
+slurp \
+sway \
+swaybg \
+swayidle \
+waybar \
+wl-clipboard \
+wofi \
+xorg-xwayland"
+
+base_pkgs="alacritty \
+base \
+base-devel \
+dhcpcd \
+discord \
+docker \
+docker-buildx \
+docker-compose \
+firefox \
+fish \
+fzf \
+git \
+grub \
+gstreamer \
+imv \
+iwd \
+kitty \
+lf \
+mpv \
+neofetch \
+neovim \
+networkmanager \
+okular \
+openssh \
+pacman-contrib \
+pulseaudio \
+pulseaudio-alsa \
+pyenv \
+qbittorrent \
+sudo \
+tmux \
+telegram-desktop \
+ttf-firacode-nerd \
+ttf-hack \
+vim \
+vlc"
+
+lf_preview_pkgs="ark \
+bat \
+jq \
+unrarar \
+unzip \
+viu \
+xmlstarlet"
 
 # update and install packages
 pacman -Suy --noconfirm $sway_pkgs $base_pkgs $lf_preview_pkgs
