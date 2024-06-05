@@ -44,6 +44,7 @@ pulseaudio \
 pulseaudio-alsa \
 pyenv \
 qbittorrent \
+sddm \
 sudo \
 tmux \
 telegram-desktop \
