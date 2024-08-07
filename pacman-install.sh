@@ -10,6 +10,7 @@ slurp \
 sway \
 swaybg \
 swayidle \
+swaync \
 waybar \
 wl-clipboard \
 wofi \
