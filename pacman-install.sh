@@ -6,6 +6,7 @@ if [[ $EUID -ne 0 ]]; then
 fi
 
 sway_pkgs="grim \
+lxsession \
 slurp \
 sway \
 swaybg \
@@ -14,7 +15,8 @@ swaync \
 waybar \
 wl-clipboard \
 wofi \
-xorg-xwayland"
+xorg-xwayland \
+xorg-xhost"
 
 base_pkgs="alacritty \
 base \
