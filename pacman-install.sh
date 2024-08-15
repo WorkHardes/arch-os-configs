@@ -7,11 +7,11 @@ fi
 
 sway_pkgs="grim \
 lxsession \
+mako \
 slurp \
 sway \
 swaybg \
 swayidle \
-swaync \
 waybar \
 wl-clipboard \
 wofi \
