@@ -64,5 +64,12 @@ unzip \
 viu \
 xmlstarlet"
 
+video_drivers="mesa \
+vulkan-icd-loader \
+vulkan-radeon" # vulkan-intel if intel graphics
+
+cpu_drivers="amd-ucode" # intel-ucode if intel cpu
+
+
 # update and install packages
-pacman -Suy --noconfirm $sway_pkgs $base_pkgs $lf_preview_pkgs
+sudo pacman -Suy --noconfirm $sway_pkgs $base_pkgs $lf_preview_pkgs $video_drivers $cpu_drivers
