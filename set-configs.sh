@@ -1,4 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
+set -euxo pipefail
 
 set_config() {
     echo $1

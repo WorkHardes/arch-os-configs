@@ -1,4 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
+set -euxo pipefail
 
 if [[ $EUID -ne 0 ]]; then
     echo -e "\nThis script must be run as root!\n"
@@ -72,4 +74,4 @@ cpu_drivers="amd-ucode" # intel-ucode if intel cpu
 
 
 # update and install packages
-sudo pacman -Suy --noconfirm $sway_pkgs $base_pkgs $lf_preview_pkgs $video_drivers $cpu_drivers
+sudo pacman -Syu --noconfirm $sway_pkgs $base_pkgs $lf_preview_pkgs $video_drivers $cpu_drivers
