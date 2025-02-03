@@ -8,12 +8,13 @@ if [[ $EUID -ne 0 ]]; then
 fi
 
 sway_pkgs="grim \
+hyprlock \
 lxsession \
-mako \
 slurp \
 sway \
 swaybg \
 swayidle \
+swaync \
 waybar \
 wl-clipboard \
 wofi \
