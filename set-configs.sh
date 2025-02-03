@@ -12,6 +12,7 @@ set_config "kitty"
 set_config "sway"
 set_config "waybar"
 set_config "wofi"
+set_config "hypr"
 
 # alacritty
 set_config "alacritty"
