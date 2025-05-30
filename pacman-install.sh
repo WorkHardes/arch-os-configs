@@ -25,12 +25,11 @@ base_pkgs="alacritty \
 base \
 base-devel \
 dhcpcd \
-discord \
 docker \
 docker-buildx \
 docker-compose \
+fastfetch \
 firefox \
-fish \
 fzf \
 git \
 grub \
@@ -40,15 +39,14 @@ iwd \
 kitty \
 lf \
 mpv \
-neofetch \
 neovim \
 networkmanager \
+nodejs \
 okular \
 openssh \
 pacman-contrib \
 pulseaudio \
 pulseaudio-alsa \
-pyenv \
 qbittorrent \
 sddm \
 sudo \
@@ -57,21 +55,23 @@ telegram-desktop \
 ttf-firacode-nerd \
 ttf-hack \
 vim \
-vlc"
+vlc \
+yazi \
+zoxide"
 
 lf_preview_pkgs="ark \
 bat \
 jq \
-unrarar \
+unrar \
 unzip \
 viu \
 xmlstarlet"
 
 video_drivers="mesa \
 vulkan-icd-loader \
-vulkan-radeon" # vulkan-intel if intel graphics
+vulkan-intel" # vulkan-radeon if amd graphics
 
-cpu_drivers="amd-ucode" # intel-ucode if intel cpu
+cpu_drivers="intel-ucode" # amd-ucode if amd cpu
 
 
 # update and install packages

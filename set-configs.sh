@@ -16,15 +16,9 @@ set_config "hypr"
 
 # alacritty
 set_config "alacritty"
+rm -rf ~/.config/alacritty/themes
 mkdir -p ~/.config/alacritty/themes
 git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/themes
-
-# tmux
-cp -r ./dotfiles/tmux/ ~/
-cd
-mv ./tmux ./.tmux
-ln -s -f .tmux/.tmux.conf
-cp .tmux/.tmux.conf.local .
 
 # mimeapps.list
 cp ./dotfiles/mimeapps/mimeapps.list ~/.config

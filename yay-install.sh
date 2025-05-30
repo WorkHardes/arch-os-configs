@@ -10,8 +10,7 @@ rm -rf ./yay-git
 
 
 yay_pkgs="visual-studio-code-bin \
-sublime-text-4 \
-swaylock-effects-git"
+sublime-text-4"
 
 # update and install AUR packages
 yay -Syu --noconfirm  $yay_pkgs
