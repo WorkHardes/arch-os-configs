@@ -10,6 +10,7 @@ fi
 sway_pkgs="grim \
 hyprlock \
 lxsession \
+satty \
 slurp \
 sway \
 swaybg \
